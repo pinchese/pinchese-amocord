@@ -1,0 +1,41 @@
+.theme-dark  {
+	--background-primary: #000;
+	--background-secondary: #000;
+	--background-secondary-alt: #000;
+	--background-tertiary: #000;
+	--background-accent: #090909;
+	--background-floating: #090909;
+
+	--background-mobile-primary: #000;
+	--background-mobile-secondary: #000;
+
+	--background-modifier-hover: #090909;
+	--background-modifier-active: #070707;
+	--background-modifier-selected: #101010;
+
+	--background-message-hover: #101010;
+
+	--interactive-normal: #909090;
+	--interactive-hover: #bbb;
+	--interactive-active: #eee;
+	--interactive-muted: #202020;
+
+	--channeltextarea-background: #090909;
+	--activity-card-background: #000;
+
+	--status-warning-text: #fff;
+
+	--scrollbar-thin-thumb: #101010;
+	--scrollbar-thin-track: #0000;
+	--scrollbar-auto-thumb: #101010;
+	--scrollbar-auto-track: #090909;
+
+	--deprecated-card-bg: #000;
+	--deprecated-store-bg: #000;
+	--deprecated-quickswitcher-input-background: #090909;
+}
+
+/* makes the friends list use the primary background color */
+.theme-dark .container-1D34oG {
+	background-color: var(--background-primary);
+}
